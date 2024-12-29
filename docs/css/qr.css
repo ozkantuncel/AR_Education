@@ -1,0 +1,24 @@
+/* qr.html için özel stiller */
+.qr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f8ff; /* Arka plan rengi (isteğe bağlı) */
+}
+
+.qr-code-image {
+    max-width: 200px; /* QR kodunun maksimum genişliği (küçültüldü) */
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+}
+
+.qr-container h1 {
+    margin-bottom: 20px;
+}

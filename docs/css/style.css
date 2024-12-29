@@ -78,6 +78,52 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
+.modal {
+    display: none; /* Başlangıçta gizli */
+    position: fixed; /* Sabit pozisyon */
+    z-index: 1; /* Popup'ı diğer elementlerin önüne getir */
+    left: 0;
+    top: 0;
+    width: 100%; /* Tam ekran genişliği */
+    height: 100%; /* Tam ekran yüksekliği */
+    overflow: auto; /* İçerik fazla ise scroll ekle */
+    background-color: rgba(0, 0, 0, 0.4); /* Arka plan yarı saydam */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-content {
+    background-color: #fefefe; /* İçerik arka planı */
+    margin: 15% auto; /* Ortala */
+    padding: 20px;
+    border: 1px solid #888;
+    width: fit-content;
+    position: relative; /* Kapatma düğmesi için relative position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute; /* Popup içinde sağ üste konumlandır */
+    top: 10px;
+    right: 10px;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 nav ul li a:hover {
     color: #94a8d3;
 }
@@ -123,7 +169,6 @@ p {
     transform: scale(1.05);
 }
 
-
 /* Grid yapıları (features ve games için) */
 .feature-grid, .games {
     display: flex;
@@ -163,10 +208,10 @@ p {
 .hero {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;  
-    text-align: right; 
-    background-color: #f0f8ff;  
-    border-radius: 10px;  
+    align-items: flex-end;
+    text-align: right;
+    background-color: #f0f8ff;
+    border-radius: 10px;
     margin-bottom: 2rem;
 }
 
@@ -201,11 +246,10 @@ p {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
 }
 
-
 .contact-form {
-    max-width: 600px; 
-    margin: 20px auto; 
-    padding: 30px; 
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -217,13 +261,13 @@ p {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #555; 
+    color: #555;
 }
 .form-group input,
 .form-group textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
     box-sizing: border-box; /* Include padding in width */
@@ -253,11 +297,11 @@ p {
         flex-basis: calc(50% - 20px);
         max-width: calc(50% - 20px);
     }
-    
+
     h1 {
         font-size: 2.2em;
     }
-    
+
     p {
         font-size: 1em;
     }
@@ -268,19 +312,19 @@ p {
         flex-direction: column;
         align-items: center;
     }
-    
+
     nav ul {
         margin-top: 10px;
     }
-    
+
     .logo {
         margin-bottom: 10px;
     }
-    
+
     main {
         padding: 1rem;
     }
-    
+
     h1 {
         font-size: 2em;
     }
@@ -291,11 +335,11 @@ p {
         flex-basis: 100%;
         max-width: 100%;
     }
-    
+
     h1 {
         font-size: 1.8em;
     }
-    
+
     .cta-button, .play-button, .submit-button {
         padding: 10px 20px;
         font-size: 0.9em;
