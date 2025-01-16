@@ -29,9 +29,9 @@ You can access the project's documentation and resources on Google Drive via thi
 
 Check out the project introduction video on YouTube to get an overview of the application:  
 ---
-[Project Introduction Video- 1](https://youtu.be/OUnV-83IAjQ)
+[Project Introduction Video- 1-Vize](https://youtu.be/OUnV-83IAjQ)
 ---
-[Project Introduction Video- 2](https://youtu.be/AdRVSZh259A)
+[Project Introduction Video- 2-Final](https://youtu.be/AdRVSZh259A)
 ---
 
 
@@ -45,6 +45,15 @@ A dedicated web page for the project provides more interactive details and resou
 
 You can download the APK from the link below:  
 [Download Titanic AR Education APK](https://drive.google.com/file/d/1AhUuFpBTHl28Df0DoYFn87Q8tXdKvHyi/view?usp=sharing)
+
+[Download Cashierless Checkout APK](https://drive.google.com/file/d/1v3EViofbPfBbO2Bj9VjB44JyHp7dXMcq/view?usp=sharing)
+
+## 📦 Cashierless Checkout Github Repo
+
+You can visit Cashierless Checkout repo mobile app
+
+[Cashierless Checkout Github Repo](https://github.com/ozkantuncel/Cashierless_Checkout_Mobile)
+
 
 
 ## 📄 License
