@@ -16,7 +16,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const statusMessage = document.getElementById('status-message');
-const downloadLink = "https://drive.google.com/file/d/1QRdAp9yrLgw_J4FpOmKGDtYzCWQsWNK1/view?usp=sharing";
+const downloadLink = "https://drive.google.com/file/d/1AhUuFpBTHl28Df0DoYFn87Q8tXdKvHyi/view?usp=sharing";
 
 async function checkFirebaseStatus() {
     try {

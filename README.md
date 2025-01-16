@@ -39,7 +39,7 @@ A dedicated web page for the project provides more interactive details and resou
 ## 📥 Download the APK
 
 You can download the APK from the link below:  
-[Download Titanic AR Education APK](https://drive.google.com/file/d/1QRdAp9yrLgw_J4FpOmKGDtYzCWQsWNK1/view?usp=sharing)
+[Download Titanic AR Education APK](https://drive.google.com/file/d/1AhUuFpBTHl28Df0DoYFn87Q8tXdKvHyi/view?usp=sharing)
 
 
 ## 📄 License
